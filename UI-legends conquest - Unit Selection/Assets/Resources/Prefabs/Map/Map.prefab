@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6963021561072671345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6963021561072671351}
+  - component: {fileID: 6963021561072671350}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6963021561072671351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963021561072671345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6963021561072671350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963021561072671345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab5ae7e6f45b72469bae670d917c2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileTypes:
+  - name: Grass
+    tileVisualPrefab: {fileID: 6355826210117152382, guid: deafb4043d81a3b4b86b9f56e3dd347b,
+      type: 3}
+    isWalkable: 1
+  - name: Fortess Floor
+    tileVisualPrefab: {fileID: 453118056823874342, guid: d4e9dab3898a1584e92a8074da173d80,
+      type: 3}
+    isWalkable: 1
+  - name: Brick Wall
+    tileVisualPrefab: {fileID: 7728648871714675492, guid: 81b32bcb2131394479c52626db9977fa,
+      type: 3}
+    isWalkable: 0
+  - name: bassTile1
+    tileVisualPrefab: {fileID: 1121428470218379391, guid: f977d9730635f044992615c2abc4387d,
+      type: 3}
+    isWalkable: 1
+  - name: baseTile2
+    tileVisualPrefab: {fileID: 1037178895159120792, guid: b08e8ab55e7668f49bf985cb91bbe711,
+      type: 3}
+    isWalkable: 1
+  - name: baseTile3
+    tileVisualPrefab: {fileID: 3451353635617768960, guid: f6fa362707eab234e8bf9eb00ce12f4f,
+      type: 3}
+    isWalkable: 1
+  - name: baseTile4
+    tileVisualPrefab: {fileID: 949566466648001277, guid: 3286d685a065abc44bf2174aad799203,
+      type: 3}
+    isWalkable: 1
+  selectedVisualPrefab:
+  - {fileID: 4896978987041831844, guid: 1ecb4e90e66b90d43b65d6697659667d, type: 3}
+  - {fileID: 1125702079397826188, guid: a5375cdd4fd4533428b597be530cee95, type: 3}
